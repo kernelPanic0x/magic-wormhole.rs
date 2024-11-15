@@ -6,7 +6,6 @@ on:
     tags: ["[0-9]+.[0-9]+.[0-9]+"]
   pull_request:
     branches: [main, dev]
-  workflow_dispatch:  # Enables manual trigger
 
 jobs:
   read_msrv:
